@@ -108,6 +108,6 @@ cf_upload: publish
 
 github: publish
 	ghp-import $(OUTPUTDIR)
-	git push git@github.com:tompollard/tompollard.github.io.git gh-pages:gh-pages
+	git push git@github.com:dbkeo/dbkeo.github.io.git gh-pages:gh-pages
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
