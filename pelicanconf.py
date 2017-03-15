@@ -43,7 +43,7 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 
 # Plugins
-# PLUGIN_PATH = '/Users/tompollard/dev/pelican-plugins'
+PLUGIN_PATH = '/Users/danielkeogh/Documents/Website/pelican-plugins-master'
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
