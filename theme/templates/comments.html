@@ -1,0 +1,4 @@
+{% if DISQUS_SITENAME %}
+{% include 'disqus_script.html' %}
+<p>There are <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">comments</a>.</p>
+{% endif %}
